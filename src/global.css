@@ -1,0 +1,44 @@
+:root {
+    font-family: Exo2, Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+
+    /* colors */
+    --background-main: #374440;
+    --background-vice: #546666;
+    --element-active: #77928a;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+#app {
+    color: #f6f6f6;
+    min-width: 640px;
+    height: 100dvh;
+    background-color: var(--background-main);
+}
+
+@media (prefers-color-scheme: dark) {
+}
+
+/*
+ * Copyright 2013 The Exo 2 Project Authors (https://github.com/googlefonts/Exo-2.0)
+ * This Font Software is licensed under the SIL Open Font License, Version 1.1
+*/
+@font-face {
+    font-family: "Exo2";
+    src: url("./assets/fonts/Exo2.ttf");
+}
