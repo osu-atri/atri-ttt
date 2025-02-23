@@ -10,16 +10,16 @@
             <span>atri-ttt</span>
         </div>
         <menu id="menu__tools" style="margin-right: auto">
-            <li>file</li>
-            <li>edit</li>
-            <li>view</li>
-            <li>help</li>
+            <li>{{ $t("message.menu_tools_file") }}</li>
+            <li>{{ $t("message.menu_tools_edit") }}</li>
+            <li>{{ $t("message.menu_tools_view") }}</li>
+            <li>{{ $t("message.menu_tools_help") }}</li>
         </menu>
         <menu id="menu__tabs">
-            <li>translate</li>
-            <li>timing</li>
-            <li>effect</li>
-            <li>check</li>
+            <li>{{ $t("message.menu_tabs_translate") }}</li>
+            <li>{{ $t("message.menu_tabs_timing") }}</li>
+            <li>{{ $t("message.menu_tabs_effect") }}</li>
+            <li>{{ $t("message.menu_tabs_check") }}</li>
         </menu>
     </div>
     <div id="main"></div>
